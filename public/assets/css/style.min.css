@@ -1,0 +1,410 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-LightItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-MediumItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-ExtraLightItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Light.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Italic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-ExtraBold.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-ExtraBoldItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-ExtraLight.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Thin.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-ThinItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Black.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-SemiBoldItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-BlackItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Bold.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-BoldItalic.woff2") format("woff2"),
+    url("../../assets/fonts/Poppins-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a6e445;
+}
+body {
+  letter-spacing: 0.5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+.img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top center;
+  object-position: top center;
+}
+* > ul::-webkit-scrollbar {
+  height: 0px !important;
+}
+* > ul li::marker {
+  color: #70c816;
+}
+.navbarspamart .navbar-brand {
+  width: auto;
+  height: 70px;
+}
+.navbarspamart .navbar-toggler .iconcross {
+  width: 25px;
+  height: 25px;
+}
+.navbarspamart .navbar-toggler .iconcross img {
+  filter: invert(1);
+}
+.navbarspamart .navbarlisttop .navbar-nav .nav-item .nav-link .iconimage {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarspamart .navbarlisttop .navbar-nav .nav-item .nav-link .navHeading {
+  font-size: 14px;
+}
+.navbarspamart .navbarlisttop .navbar-nav .nav-item .nav-link .subHeading {
+  font-size: 13px;
+}
+.navbarspamart .navbarlisttop button {
+  transition: all 0.3s ease-in-out;
+}
+.navbarspamart .navbarlisttop button span {
+  width: 20px;
+  height: 20px;
+}
+.navbarspamart .navbarlisttop button span img {
+  transition: all 0.3s ease-in-out;
+}
+.navbarspamart .navbarlisttop button:hover {
+  background-color: #70c816 !important;
+}
+.navbarspamart .navbarlisttop button:hover span img {
+  transform: translateX(5px);
+}
+.navbarspamart .bottomlist {
+  background-color: #f3f5f7;
+}
+.navbarspamart .bottomlist .main-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarspamart .bottomlist .main-menu li {
+  position: relative;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.navbarspamart .bottomlist .main-menu li span {
+  width: 15px;
+  height: 15px;
+}
+.navbarspamart .bottomlist .main-menu li .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+  background: #fff;
+  width: 275px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  border-top-left-radius: 0;
+  box-shadow: 0 3px 35px 0 rgba(0, 0, 0, 0.15);
+}
+.navbarspamart .bottomlist .main-menu li .sub-menu .subList {
+  white-space: nowrap;
+  align-items: start;
+  justify-content: start;
+  transition: all 0.3s ease-in-out;
+}
+.navbarspamart .bottomlist .main-menu li .sub-menu .subList:hover {
+  color: #70c816 !important;
+}
+.navbarspamart .bottomlist .main-menu li:hover .sub-menu {
+  display: block;
+}
+.footermain {
+  background-image: url(../image/home/pattern-2.png);
+}
+.footermain .aboutimage {
+  text-align: center;
+}
+.footermain .aboutimage .flogo {
+  height: 100px;
+  width: 100%;
+}
+.footermain .useful-links .footerHeading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #70c816;
+  margin-bottom: 10px;
+}
+.footermain .useful-links .list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footermain .useful-links .list .itemelist {
+  transition: all 0.3s ease-in-out;
+}
+.footermain .useful-links .list .itemelist a {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footermain .useful-links .list .itemelist a span {
+  width: 15px;
+  height: 15px;
+}
+.footermain .useful-links .list .itemelist:hover {
+  padding-left: 10px;
+}
+.footermain .useful-links .list .itemelist:hover a:hover {
+  color: #70c816;
+}
+.footermain .useful-links .list.contactSide li {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+.footermain .useful-links .list.contactSide li span {
+  width: 32px;
+  height: 16px;
+}
+.footermain .useful-links .list.contactSide li .addres {
+  font-size: 14px;
+  font-weight: 400;
+  width: unset;
+  height: unset;
+}
+.footermain .useful-links .list.contactSide li a {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footermain .useful-links .list.contactSide li a:hover {
+  color: #000;
+}
+@media (max-width: 1199.98px) {
+  .footermain .aboutimage {
+    text-align: center;
+  }
+  .footermain .aboutimage .flogo {
+    height: 50px;
+    width: 190px;
+  }
+}
+@media (max-width: 991.98px) {
+  .footermain .aboutimage {
+    text-align: center;
+  }
+  .footermain .aboutimage .flogo {
+    height: 50px;
+    width: 225px;
+  }
+  .footermain .useful-links .footerHeading {
+    font-size: 17px;
+  }
+  .footermain .useful-links .list .itemelist a {
+    font-size: 14px;
+  }
+  .footermain .useful-links .list .itemelist:hover {
+    padding-left: 10px;
+  }
+  .footermain .useful-links .list.contactSide li .addres {
+    font-size: 14px;
+  }
+  .footermain .useful-links .list.contactSide li a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px) {
+  .footermain .aboutimage {
+    text-align: center;
+  }
+  .footermain .aboutimage .flogo {
+    height: 50px;
+    width: 225px;
+  }
+  .footermain .useful-links .footerHeading {
+    font-size: 15px;
+  }
+  .footermain .useful-links .list .itemelist a {
+    font-size: 13px;
+  }
+  .footermain .useful-links .list .itemelist:hover {
+    padding-left: 10px;
+  }
+  .footermain .useful-links .list.contactSide li .addres {
+    font-size: 12px;
+  }
+  .footermain .useful-links .list.contactSide li a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footermain .aboutimage {
+    text-align: center;
+  }
+  .footermain .aboutimage .flogo {
+    width: 225px;
+  }
+  .footermain .useful-links .footerHeading {
+    font-size: 15px;
+  }
+  .footermain .useful-links .list .itemelist a {
+    font-size: 13px;
+  }
+  .footermain .useful-links .list .itemelist:hover {
+    padding-left: 10px;
+  }
+  .footermain .useful-links .list.contactSide li .addres {
+    font-size: 12px;
+  }
+  .footermain .useful-links .list.contactSide li a {
+    font-size: 12px;
+  }
+} /*# sourceMappingURL=style.min.css.map */
