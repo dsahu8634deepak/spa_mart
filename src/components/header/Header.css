@@ -1,0 +1,92 @@
+.navbarspamart .navbar-brand {
+    width: auto;
+    height: 70px;
+  }
+  .navbarspamart .navbar-toggler .iconcross {
+    width: 25px;
+    height: 25px;
+  }
+  .navbarspamart .navbar-toggler .iconcross img {
+    filter: invert(1);
+  }
+  .navbarspamart .navbarlisttop .navbar-nav .nav-item .nav-link .iconimage {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbarspamart .navbarlisttop .navbar-nav .nav-item .nav-link .navHeading {
+    font-size: 14px;
+  }
+  .navbarspamart .navbarlisttop .navbar-nav .nav-item .nav-link .subHeading {
+    font-size: 13px;
+  }
+  .navbarspamart .navbarlisttop button {
+    transition: all 0.3s ease-in-out;
+  }
+  .navbarspamart .navbarlisttop button span {
+    width: 20px;
+    height: 20px;
+  }
+  .navbarspamart .navbarlisttop button span img {
+    transition: all 0.3s ease-in-out;
+  }
+  .navbarspamart .navbarlisttop button:hover {
+    background-color: #70c816 !important;
+  }
+  .navbarspamart .navbarlisttop button:hover span img {
+    transform: translateX(5px);
+  }
+  .navbarspamart .bottomlist {
+    background-color: #f3f5f7;
+  }
+  .navbarspamart .bottomlist .main-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbarspamart .bottomlist .main-menu li {
+    position: relative;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+  }
+  .navbarspamart .bottomlist .main-menu li span {
+    width: 15px;
+    height: 15px;
+  }
+  .navbarspamart .bottomlist .main-menu li .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    background: #fff;
+    width: 275px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 0;
+    box-shadow: 0 3px 35px 0 rgba(0, 0, 0, 0.15);
+  }
+  .navbarspamart .bottomlist .main-menu li .sub-menu .subList {
+    white-space: nowrap;
+    align-items: start;
+    justify-content: start;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbarspamart .bottomlist .main-menu li .sub-menu .subList:hover {
+    color: #70c816 !important;
+  }
+  .navbarspamart .bottomlist .main-menu li:hover .sub-menu {
+    display: block;
+  }

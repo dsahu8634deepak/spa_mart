@@ -1,0 +1,88 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    @include homePage-mixin-min-sm();
+    @include heading-mixin-min-sm();
+    @include button-mixin-min-sm();
+    @include footermain-mixin-min-sm();
+    
+}
+
+// Mdium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    @include homePage-mixin-min-md();
+    @include heading-mixin-min-md();
+    @include button-mixin-min-md();
+    @include footermain-mixin-min-md();
+
+}
+
+// Lrge devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    @include homePage-mixin-min-lg();
+    @include heading-mixin-min-lg();
+    @include button-mixin-min-lg();
+    @include footermain-mixin-min-lg();
+}
+
+// XLarge devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    @include homePage-mixin-min-xl();
+    @include footermain-mixin-min-xl();
+    @include heading-mixin-min-xl();
+    @include button-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    @include homePage-mixin-min-xxl();
+    @include heading-mixin-min-xxl();
+    @include button-mixin-min-xxl();
+    @include footermain-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    @include homePage-mixin-max-xl();
+    @include heading-mixin-max-xl();
+    @include button-mixin-max-xl();
+    @include footermain-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    @include homePage-mixin-max-lg();
+    @include heading-mixin-max-lg();
+    @include button-mixin-max-lg();
+    @include footermain-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    @include homePage-mixin-max-md();
+    @include footermain-mixin-max-md();
+    @include heading-mixin-max-md();
+    @include button-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    @include homePage-mixin-max-sm();
+    @include heading-mixin-max-sm();
+    @include button-mixin-max-sm();
+    @include footermain-mixin-max-sm();
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    @include homePage-mixin-max-xs();
+    @include heading-mixin-max-xs();
+    @include button-mixin-max-xs();
+    @include footermain-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
